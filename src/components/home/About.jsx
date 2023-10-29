@@ -75,7 +75,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex justify-center items-center mt-10">
-                    <button className="p-3 bg-blue-600 text-white font-bold rounded-md">
+                    <button className="p-3 bg-blue-600 text-white font-bold rounded-md shadow-xl hover:bg-blue-500 duration-200">
                         SIGN UP NOW 
                     </button>
                 </div>
