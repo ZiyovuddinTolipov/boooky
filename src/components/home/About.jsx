@@ -74,6 +74,11 @@ const About = () => {
                         </button>
                     </div>
                 </div>
+                <div className="flex justify-center items-center mt-10">
+                    <button className="p-3 bg-blue-600 text-white font-bold rounded-md">
+                        SIGN UP NOW 
+                    </button>
+                </div>
             </section>
         </main>
     )
