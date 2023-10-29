@@ -19,7 +19,7 @@ const Hero = () => {
     };
 
     const style = {
-        container: "min-h-[450px] lg:h-[350px] sm:h-[600px]  sm:pt-3 sm:px-10 lg:px-0 md:pt-6 pt-8 flex flex-col sm:flex-col sm:w-full lg:flex-row px-4 max-w-[1400px] mx-auto",
+        container: "min-h-[450px] lg:h-[350px] sm:h-[600px]  sm:pt-3 sm:px-10 lg:px-0 md:pt-6 pt-8 flex flex-col sm:flex-col sm:w-full lg:flex-row px-4 max-w-[1400px] mx-auto mt-4 md:mt-10",
         swiperADS: `h-full rounded-2xl sm:w-full lg:w-[70%] sm:h-[300px] lg:h-full `,
         sliderADS: `bg-slate-800 text-white text-center min-h-[350px]`,
         discount:` rounded-2xl px-4 lg:ml-5 sm:mx-0 sm:my-5 lg:my-0 w-full sm:w-full lg:w-[30%] sm:h-[300px] lg:h-full min-h-[300px] `
@@ -73,8 +73,8 @@ const Hero = () => {
                 {sliderData.map((item) => (
                     <SwiperSlide key={item.id} className={`${style.sliderADS}`} style={{ background: `url('${item.sliderImg}') no-repeat center`, backgroundSize: "cover" }}>
                         <div className="flex justify-center flex-col items-center min-h-full">
-                            <h3>{item.sliderInfo}</h3>
-                            <a href={item.sliderURL}>Batafsil</a>
+                            <h3 className='text-xl bg-black/50 p-4 rounded-md'>{item.sliderInfo}</h3>
+                            <a  className="bg-blue-600 p-3 mt-4 rounded-md" href={item.sliderURL}>Batafsil</a>
                         </div>
                     </SwiperSlide>
                 ))}
