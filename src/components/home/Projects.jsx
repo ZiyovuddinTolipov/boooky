@@ -23,8 +23,8 @@ const Projects = () => {
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
-                modules={[Pagination, Navigation,Autoplay]}
+                navigation={false}
+                modules={[Pagination, Navigation, Autoplay]}
                 className="mySwiper"
                 autoplay={{
                     delay: 2500,
