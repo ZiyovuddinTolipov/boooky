@@ -19,7 +19,7 @@ const Hero = () => {
     };
 
     const style = {
-        container: "min-h-[450px] lg:h-[350px] sm:h-[600px]  sm:pt-3 sm:px-10 lg:px-0 md:pt-6 pt-8 flex flex-col sm:flex-col sm:w-full lg:flex-row px-4",
+        container: "min-h-[450px] lg:h-[350px] sm:h-[600px]  sm:pt-3 sm:px-10 lg:px-0 md:pt-6 pt-8 flex flex-col sm:flex-col sm:w-full lg:flex-row px-4 max-w-[1400px] mx-auto",
         swiperADS: `h-full rounded-2xl sm:w-full lg:w-[70%] sm:h-[300px] lg:h-full `,
         sliderADS: `bg-slate-800 text-white text-center min-h-[350px]`,
         discount:` rounded-2xl px-4 lg:ml-5 sm:mx-0 sm:my-5 lg:my-0 w-full sm:w-full lg:w-[30%] sm:h-[300px] lg:h-full min-h-[300px] `

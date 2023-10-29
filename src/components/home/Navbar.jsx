@@ -2,7 +2,7 @@ import logo from "../../assets/logo.svg";
 import {BiMenuAltRight} from "react-icons/bi";
 const Navbar = () => {
     return (
-        <nav className="bg-white text-black flex justify-between items-center  mt-[3em] px-10 font-semibold">
+        <nav className="bg-white text-black flex justify-between items-center  mt-[3em] font-semibold max-w-[1400px] mx-auto">
             <div className="">
                 <img src={logo} alt="logo boooky" className="w-[25rem]" />
             </div>
